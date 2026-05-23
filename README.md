@@ -1,74 +1,135 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://yatinder.netlify.app/" target="_blank">Yatinder Portfolio</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/maingithubportfolioimg.png" />
-</div>
+# My Portfolio Website
 
-<br/>
-
-<center>
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
-
-</center>
-
-<h3 align="center">
-    🔹
-    <a href="https://github.com//Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com//Portfolio/issues">Request Feature</a>
-</h3>
-
-## TL;DR
-
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back  Thanks!
-
-## Built With
-
-My personal portfolio <a href="https://yatinder.netlify.app/" target="_blank">Yatinder Singh Rawat</a> which features some of my github projects as well as my resume and technical skills.<br/>
-
-This project was built using these technologies.
-
-- React.js
-- CSS3
-- VsCode
-- Netlify
+A modern, responsive developer portfolio website built with React. Showcasing projects, skills, and providing a way to get in touch.
 
 ## Features
 
-**📖 Multi-Page Layout**
+✨ **Modern Design** - Clean, minimalist design with smooth animations
+🎨 **Responsive Layout** - Works seamlessly on desktop, tablet, and mobile devices
+⚡ **Fast Performance** - Optimized for quick loading and smooth interactions
+🎯 **SEO Friendly** - Structured HTML and metadata for better search visibility
+📱 **Mobile First** - Built with mobile responsiveness as priority
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+## Tech Stack
 
-**📱 Fully Responsive**
+- **React 18** - UI library
+- **React Router DOM** - Client-side routing
+- **React Icons** - Icon library
+- **CSS3** - Modern styling with gradients and animations
+- **JavaScript (ES6+)** - Modern JavaScript features
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Navbar.js & Navbar.css
+│   ├── Hero.js & Hero.css
+│   ├── About.js & About.css
+│   ├── Skills.js & Skills.css
+│   ├── Projects.js & Projects.css
+│   ├── Contact.js & Contact.css
+│   └── Footer.js & Footer.css
+├── App.js
+├── App.css
+├── index.js
+└── index.css
+```
+
+## Sections
+
+- **Hero** - Eye-catching introduction with CTA buttons
+- **About** - Brief background and statistics
+- **Skills** - Technical skills with proficiency levels
+- **Projects** - Showcase of featured projects with links
+- **Contact** - Contact information and message form
 
 ## Getting Started
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+### Prerequisites
 
-## 🛠 Installation and Setup Instructions
+- Node.js (v14 or higher)
+- npm or yarn
 
-1. Installation: `npm install`
+### Installation
 
-2. In the project directory, you can run: `npm start`
+1. Clone the repository:
+```bash
+git clone https://github.com/yatin232/my-portfolio.git
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+2. Navigate to the project directory:
+```bash
+cd my-portfolio
+```
 
-## Usage Instructions
+3. Install dependencies:
+```bash
+npm install
+```
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+### Running the Project
 
-### Show your support
+Start the development server:
+```bash
+npm start
+```
 
-Give a ⭐ if you like this website!
+The application will open in your browser at `http://localhost:3000`
 
-<a href="https://yatinder.netlify.app/" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+### Building for Production
+
+Create an optimized production build:
+```bash
+npm run build
+```
+
+## Customization
+
+### Update Your Information
+
+Edit the following files to customize the portfolio:
+
+- **Hero Section**: `src/components/Hero.js`
+- **About Section**: `src/components/About.js`
+- **Skills**: `src/components/Skills.js`
+- **Projects**: `src/components/Projects.js`
+- **Contact Info**: `src/components/Contact.js`
+
+### Modify Colors
+
+Global colors can be adjusted in:
+- `src/index.css` - Color variables and themes
+- Component CSS files - Individual component colors
+
+## Available Scripts
+
+- `npm start` - Runs the app in development mode
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects from create-react-app (irreversible)
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## Contributing
+
+Feel free to fork this project and submit pull requests for any improvements.
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Contact
+
+- Email: yatin@example.com
+- LinkedIn: [Your Profile](https://linkedin.com)
+- GitHub: [@yatin232](https://github.com/yatin232)
+- Twitter: [@your_handle](https://twitter.com)
+
+---
+
+Made with ❤️ by Yatin
